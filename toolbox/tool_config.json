@@ -1,0 +1,21 @@
+[
+{"tool_id":0,
+"tool_name":"arxiv_paper_search",
+"description":"从 arXiv.org 上搜索论文",
+"args":["keywords", "max_results"],
+"arg_descriptions":{
+    "keywords": "必选参数，一个列表，包含要搜索的关键词，如：[\"关键词1\", \"关键词2\"]",
+    "max_results": "可选参数，一个 int 类型整数，表示要返回的最大论文数量，默认为 5"
+  }
+},
+
+{"tool_id":1,
+"tool_name":"magic_operator",
+"description":"用户自己定义的魔法算子，接受用户的三个输入数，返回经魔法算子计算后的数",
+"args":["digit1", "digit2", "digit3"],
+"arg_descriptions":{
+    "digit1": "必选参数，一个整数，表示第一个数字",
+    "digit2": "必选参数，一个整数，表示第二个数字",
+    "digit3": "必选参数，一个整数，表示第三个数字"}
+}
+]
