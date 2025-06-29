@@ -1,1 +1,1 @@
-# Technology-Insight-Agent
+# Science and Technology Insight Platform
